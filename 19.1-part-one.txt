@@ -1,0 +1,18 @@
+Part One:
+1: HTTP is the standard web protocol for browser communication.
+
+2: URL is the combination of protocol, hostname, port, resource and query to create a web address.
+
+3: DNS is the process that takes URLs and converts them to IP addresses.
+
+4: A query string is a key:value pair search term or piece of info given to the server so that it may respond in the way that the dev intended. 
+
+5: GET- this requests without changing server data. Generally query strings are passed in. POST- this requests and changes server data. Such as, submitting content and adding it to the server somehow.
+ 
+6: An HTTP request is specific info (method, protocol, URL and headers) given to a server so that it may construct a page to give back to the browser.
+
+7: An HTTP response is the constructed page being sent back to the browser for display.
+ 
+8: HTTP headers are pieces of information that categorize the data being requested and responded to. i.e content-language, last-modified, server.
+
+9: Nothing happens except the browser displays the URL you typed. Unless you press enter or search, then the browser resolves the URL to an IP with DNS. It makes a request to the IP server using headers. The server responds with HTML generally, and a 200 code if all goes well. The browser creates a DOM with the HTML it received. Then the browser can make more requests if need be for Js, CSS or other media.
